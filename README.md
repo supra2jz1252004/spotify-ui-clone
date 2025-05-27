@@ -21,8 +21,7 @@ A sleek and responsive music player user interface built with **HTML** and **CSS
 
 ## 📸 Preview
 
-![Screenshot](
-
+![Screenshot 2025-05-27 152642](https://github.com/user-attachments/assets/8ec96c44-d76d-4ec1-848a-72337fd343a1)
 
 ## 🚀 How to Use
 
