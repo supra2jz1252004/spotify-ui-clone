@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project.css"/>
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png">
+                <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <h2>Recent Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.png" class="card-img">
+                    <p class="card-title">Alejandro</p>
+                    <p class="card-info">A dramatic synth-pop breakup anthem with Euro-disco vibes, military beats, and Gaga's signature flair</p>
+                </div>
+            </div>
+            <h2>Jump back in</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card2img.png" class="card-img">
+                    <p class="card-title">Lady Gaga Mix</p>
+                    <p class="card-info">Dua Lipa, Tate McRae and Rihanna</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.png" class="card-img">
+                    <p class="card-title">Daily Mix 1</p>
+                    <p class="card-info">Taylor Swift, Selena Gome, Lady Gaga and more</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.png" class="card-img">
+                    <p class="card-title">This is Ed Sheeran</p>
+                    <p class="card-info">All his biggest hits in one place</p>
+                </div>
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs-Global</p>
+                    <p class="card-info">Your weekly update of the most played tracks right now-Global</p>
+                </div>
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs-India</p>
+                    <p class="card-info">Your weekly update of the most played tracks right now-India</p>
+                </div>
+            </div>
+            <h2>Trending near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card7img.png" class="card-img">
+                    <p class="card-title">Pop Mix</p>
+                    <p class="card-info">Dua Lipa, Tate McRae, Selena Gomez and more</p>
+                </div>
+                <div class="card">
+                    <img src="card8img.png" class="card-img">
+                    <p class="card-title">Dance/Electronic Mix</p>
+                    <p class="card-info">ATB, Calvin Harris, Topic and more</p>
+                </div>
+                <div class="card">
+                    <img src="card9img.png" class="card-img">
+                    <p class="card-title">Mega Hit Mix</p>
+                    <p class="card-info">A mega mix of 75 favourites from the last few years!</p>
+                </div>
+                <div class="card">
+                    <img src="card10img.png" class="card-img">
+                    <p class="card-title">Softly</p>
+                    <p class="card-info">Karan Aujla, Ikky</p>
+                </div>
+                <div class="card">
+                    <img src="card11img.png" class="card-img">
+                    <p class="card-title">Old is Gold</p>
+                    <p class="card-info">Soulful hindi songs for your nostalgic journey.</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="card12img.png">
+                <div class="song-details">
+                    <div class="song-name">Be the one</div>
+                    <div class="artist-name">Dua Lipa</div>
+                </div>
+                <button class="like-btn">
+                    <i class="fas fa-heart"></i> 
+                </button>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon">
+                    <img src="player_icon2.png" class="player-control-icon">
+                    <img src="player_icon3.png" class="player-control-icon" style="opacity: 1;height: 2rem;">
+                    <img src="player_icon4.png" class="player-control-icon">
+                    <img src="player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1"> 
+                    <span class="tot-time">3:22</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="volume-control">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" min="0" max="100" value="70" class="volume-slider">
+                </div>
+                <button class="lyrics"><i class="fas fa-microphone-alt"></i></button>
+                <button class="queue"><i class="fas fa-list-ul"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
