@@ -21,9 +21,8 @@ A sleek and responsive music player user interface built with **HTML** and **CSS
 
 ## 📸 Preview
 
-![Screenshot](screenshot.png)
+![Screenshot](
 
-> Add your actual project screenshot above by renaming an image to `screenshot.png` or editing the path.
 
 ## 🚀 How to Use
 
