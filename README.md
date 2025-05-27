@@ -51,4 +51,4 @@ This project is open-source and available under the [MIT License](LICENSE) – f
 
 ### 🙌 Let's Connect
 
-If you like this project, feel free to connect with me on [LinkedIn](https://www.linkedin.com) or star ⭐ the repo!
+If you like this project, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/supratim-das-583804285/) or star ⭐ the repo!
